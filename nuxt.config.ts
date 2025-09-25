@@ -13,6 +13,13 @@ export default defineNuxtConfig({
 
   css: ["~/assets/css/main.css"],
 
+  nitro: {
+    prerender: {
+      routes: ["/"],
+      crawlLinks: true,
+    },
+  },
+
   eslint: {
     config: {
       stylistic: {
