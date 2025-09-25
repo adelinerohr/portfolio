@@ -26,7 +26,7 @@ defineProps<{
         :animate="{
           scale: 1,
           opacity: 1,
-          filter: 'blue(0px)',
+          filter: 'blur(0px)',
         }"
         :transition="{
           duration: 0.6,
